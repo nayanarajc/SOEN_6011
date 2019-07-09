@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \large\textbf{F10:$\sigma$}
+    \end{center}
+    
+\section*{Description}
+This symbol notifies standard deviation(SD), it is a method that measures extent of variation or separation of data values. The symbol σ  is taken from Greek letter sigma. If the value of standard deviation is low it indicates data points are close to the mean can be considered as domain values, while higher value indicates wider range of values, considered as co-domain values. The difference between domain and co-domain values gives Range. Things required to calculate this are mean and variance. Mean is calculated by summing up all values and dividing it by total number of values and variance is calculated by taking difference of each, squaring it and then averaging the results. Calculator will compute population and sample standard deviation.\newline
+\textbf{Properties of Standard Deviation}\newline
+1.	Measures spread-out numbers.\newline
+2.	It is expressed in same unit as data.\newline
+3.	Used to measure statistical results such as margin of errors.\newline
+4.	Using standard deviation, we can calculate normal, extra-large and extra small values.
+\newline
+\newline
+\textbf{Population Standard Deviation}
+\newline
+This is used when an entire population can be measured, and where every member of a population can be sampled. The following is the equation:
+\newline
+\begin{math}
+\sigma=\frac{1}{N}\sqrt{\Sigma_{i=1}^{N}(x_{i}-\mu)^2}
+\end{math}
+Where
+xi is one individual value,$mu$ is the mean/expected value, N is the total number of values
+\newline
+\newline
+\textbf{Sample Standard Deviation}
+\newline
+In this it is not possible to sample every member within a population, so above equation must be modified such that the deviation can be measured through random samples of the population. 
+\newline
+\begin{math}
+s= \frac{1}{N-1}\sqrt{\Sigma_{i=1}^{N}(x_{i}-\bar{x})^2}
+\end{math}
+Where xi is one sample value,x̄ is the sample mean, N is the sample size
+\bibliographystyle{plain}
+\bibliography{references}
+https://www.calculator.net/standard-deviation-calculator.html\newline
+https://www.mathsisfun.com/data/range.html\newline
+https://tex.stackexchange.com/questions/88388/how-to-have-the-title-at-the-top-of-a-latex-document\newline
+https://tex.stackexchange.com/questions/456051/standard-deviation
+\end{titlepage}
+\end{document}
