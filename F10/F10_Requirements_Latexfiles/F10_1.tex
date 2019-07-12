@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \large\textbf{F10:$\sigma$}
+    \end{center}
+  
+    
+\section{Description}
+This symbol notifies standard deviation(SD), it is a method that measures extent of variation or separation of data values. The symbol $\sigma$  is taken from Greek letter sigma. If the value of standard deviation is low it indicates data points are close to the mean, while higher value indicates wider range of values.The values that goes into the function is called as domain, all possible outcome of function is co-domain and actual output from system is called Range. Things required to calculate standard deviation are mean and variance. Mean is calculated by summing up all values and dividing it by total number of values and variance is calculated by taking difference of each, squaring it and then averaging the results. Calculator will compute population and sample standard deviation.\newline
+\textbf{Properties of Standard Deviation}\newline
+1.	Measures spread-out numbers.\newline
+2.	It is expressed in same unit as data.\newline
+3.	Used to measure statistical results such as margin of errors.\newline
+4.	Using standard deviation, we can calculate normal, extra-large and extra small values.
+\newline
+\newline
+\textbf{Population Standard Deviation}
+\newline
+This is used when an entire population can be measured, and where every member of a population can be sampled. The following is the equation:
+\begin{center}
+\begin{math}
+\sigma=\sqrt{\frac{1}{N}\Sigma_{i=1}^{N}(x_{i}-\mu)^2}
+\end{math}
+\end{center}
+Where xi is one individual value,$mu$ is the mean/expected value, N is the total number of values
+\newline
+\newline
+\textbf{Sample Standard Deviation}
+\newline
+In this it is not possible to sample every member within a population, so above equation must be modified such that the deviation can be measured through random samples of the population. 
+\begin{center}
+\begin{math}
+s= \sqrt{\frac{1}{N-1}\Sigma_{i=1}^{N}(x_{i}-\bar{x})^2}
+\end{math}
+\end{center}
+Where xi is one sample value,$\bar{x}$ is the sample mean and N is number of sample value.
+
+\section{Requirements}
+\subsection{Functional Requirements}
+\subsubsection{Input Requirement}
+When the user enters zero input/input=null, the function shall pop out an error stating "Input cannot be Null". As number divided by zero leads to infinity. (length !=0)\newline
+Priority of this requirement: 5
+\subsubsection{Length Requirement}
+When the user enters less than two inputs, the function shall display error message "Enter more than one input". This is because minimum length required to calculate standard deviation is 2.(min length=2)\newline
+Priority of this requirement: 5
+\subsubsection{Multiple inputs}
+User shall be able to enter 'n' inputs from the console provided by function.There is no limit for inputs. Function has to handle inputs.\newline
+Priority of this requirement: 3
+\subsubsection{Handling real numbers}
+As user enters real numbers, the function shall be able to accept, process it and output's as real numbers.\newline
+Priority of this requirement: 3
+\subsubsection{Calculate Mean}
+When calculating standard deviation function, the function shall automatically call mean and retrieve result without notice to user. \newline
+Priority of this requirement: 4
+\subsubsection{Calculate variance}
+When calculating standard deviation function, the function shall calculate variance explicitly or within the function and retrieve result without getting to user notice. \newline
+Priority of this requirement: 4
+\subsubsection{Display Output}
+User shall be able to see only final output of function which is Standard deviation value, and output will be displayed on console. User shall not have any problem while viewing output. \newline
+Priority of this requirement: 5
+\subsection{Non-Functional Requirements}
+\subsubsection{Performance}
+It is analysed on how the function responds to given input provided at certain time. 
+\subsubsection{Correctness}
+Correctness of the function is measurable by checking input-output behaviour.The generated output is verified by comparing results computed manually.
+\subsubsection{Consistency}
+The consistency of the function remains same throughout all calculators, as math definition for standard deviation is unchangeable. And consistency of output for all input also remains same.
+\subsubsection{Accessibility}
+Defines how easily the function is accessible by all kinds of stakeholders, in different platforms and with integration of hardware.
+\subsubsection{Usability}
+The function is easily usable by all stakeholders and also learn-able to achieve specific needs.
+
+\section{Constraints}
+1.	Interfaces for calculating standard has already been defined and is not bounded to change.\newline
+2.	Some calculators are region specific.\newline
+3.  Mode for selecting standard deviation may vary from different calculators.\newline
+4.  Users from non-mathematical background will have difficulties in accessing function through calculator.
+
+\section{Assumptions}
+1.	All inputs provided by users are real numbers.\newline
+2.	Inputs are of population standard deviation.\newline
+3.	Users will be familiar with accessing functions in calculator.\newline
+4.	All calculators that supports Math and Statistics contains standard deviation function.\newline 
+5.	Value of standard deviation directly proportional to data points or mean value.\newline
+
+\bibliographystyle{plain}
+\bibliography{references}
+https://ieeexplore.ieee.org/stamp/stamp.jsp\newline
+https://www.calculator.net/standard-deviation-calculator.html\newline
+https://www.mathsisfun.com/data/\newline
+https://tex.stackexchange.com/questions/88388/how-to-have-the-title-at-the-top-of-a-latex-document\newline
+https://tex.stackexchange.com/questions/456051/standard-deviation
+https://www.reqview.com/doc/iso-iec-ieee-29148-srs-example.html
+
+
+\end{titlepage}
+\end{document}
