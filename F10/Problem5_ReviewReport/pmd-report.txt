@@ -1,0 +1,58 @@
+src/Acoscalculator/Acos.java:1:	PackageCase: Package name contains upper case characters
+src/Acoscalculator/Acos.java:1:	PackageCase: Package name contains upper case characters
+src/Acoscalculator/Acos.java:12:	ShortClassName: Avoid short class names like Acos
+src/Acoscalculator/Acos.java:12:	ShortClassName: Avoid short class names like Acos
+src/Acoscalculator/Acos.java:13:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Acoscalculator/Acos.java:13:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Acoscalculator/Acos.java:21:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sum method if you want a default access modifier
+src/Acoscalculator/Acos.java:21:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the sum method if you want a default access modifier
+src/Acoscalculator/Acos.java:21:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Acoscalculator/Acos.java:21:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/Acoscalculator/Acos.java:21:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Acoscalculator/Acos.java:21:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Acoscalculator/Acos.java:21:	ShortVariable: Avoid variables with short names like x
+src/Acoscalculator/Acos.java:21:	ShortVariable: Avoid variables with short names like x
+src/Acoscalculator/Acos.java:27:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:27:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:38:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Acoscalculator/Acos.java:38:	MethodArgumentCouldBeFinal: Parameter 'x' is not assigned and could be declared final
+src/Acoscalculator/Acos.java:38:	ShortVariable: Avoid variables with short names like x
+src/Acoscalculator/Acos.java:38:	ShortVariable: Avoid variables with short names like x
+src/Acoscalculator/Acos.java:39:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '39'-'63').
+src/Acoscalculator/Acos.java:39:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'a' (lines '39'-'63').
+src/Acoscalculator/Acos.java:39:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/Acoscalculator/Acos.java:39:	LocalVariableCouldBeFinal: Local variable 'a' could be declared final
+src/Acoscalculator/Acos.java:39:	ShortVariable: Avoid variables with short names like a
+src/Acoscalculator/Acos.java:39:	ShortVariable: Avoid variables with short names like a
+src/Acoscalculator/Acos.java:40:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'total' (lines '40'-'43').
+src/Acoscalculator/Acos.java:40:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'total' (lines '40'-'43').
+src/Acoscalculator/Acos.java:45:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Acoscalculator/Acos.java:45:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/Acoscalculator/Acos.java:47:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:47:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:52:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:52:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:57:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:57:	SystemPrintln: System.out.println is used
+src/Acoscalculator/Acos.java:72:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/Acoscalculator/Acos.java:72:	AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause
+src/Acoscalculator/Acos.java:72:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/Acoscalculator/Acos.java:72:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/Acoscalculator/Acos.java:74:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/Acoscalculator/Acos.java:74:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/Acoscalculator/Acos.java:74:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/Acoscalculator/Acos.java:74:	LocalVariableCouldBeFinal: Local variable 'sc' could be declared final
+src/Acoscalculator/Acos.java:74:	ShortVariable: Avoid variables with short names like sc
+src/Acoscalculator/Acos.java:74:	ShortVariable: Avoid variables with short names like sc
+src/Acoscalculator/Acos.java:75:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/Acoscalculator/Acos.java:75:	LocalVariableCouldBeFinal: Local variable 'x' could be declared final
+src/Acoscalculator/Acos.java:75:	ShortVariable: Avoid variables with short names like x
+src/Acoscalculator/Acos.java:75:	ShortVariable: Avoid variables with short names like x
+src/Acoscalculator/Acos.java:77:	SystemPrintln: System.out.printf is used
+src/Acoscalculator/Acos.java:77:	SystemPrintln: System.out.printf is used
+src/Acoscalculator/AcosTest.java:1:	PackageCase: Package name contains upper case characters
+src/Acoscalculator/AcosTest.java:1:	PackageCase: Package name contains upper case characters
+src/Acoscalculator/AcosTest.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Acoscalculator/AcosTest.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/Acoscalculator/AcosTest.java:18:	LocalVariableCouldBeFinal: Local variable 'test' could be declared final
+src/Acoscalculator/AcosTest.java:18:	LocalVariableCouldBeFinal: Local variable 'test' could be declared final
